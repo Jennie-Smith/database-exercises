@@ -22,3 +22,5 @@ INSERT INTO `albums` (`id`, `artist`, `album_name`, `release_date`, `sales`, `ge
 (29,	'Michael Jackson',	'Dangerous',	1991,	17.000000,	'New jack swing, R&B and pop'),
 (30,	'The Beatles',	'Abbey Road',	1969,	16.800000,	'Rock'),
 (32,	'Michael Jackson',	'Thriller2',	1900,	2.000000,	'stuff');
+
+-- TRUNCATE albums;
