@@ -6,7 +6,7 @@ USE codeup_test_db;
 SELECT * FROM albums WHERE artist = 'Pink Floyd';
 SELECT album_name FROM albums WHERE artist = 'Pink Floyd';
 -- year Sgt. Pepper's Lonely Hearts Club Band was released
-SELECT release_date AS 'Caption' FROM albums WHERE artist = 'The Beatles';
+SELECT release_date AS 'Caption' FROM albums WHERE album_name = "Sgt. Pepper\'s Lonely Hearts Club Band";
 
 -- The genre for Nevermind
 SELECT * FROM albums WHERE genre = 'Nevermind';
