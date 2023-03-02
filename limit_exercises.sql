@@ -12,10 +12,10 @@ LIMIT 10;
 
 SELECT emp_no
 FROM salaries
-ORDER BY salary ASC
+ORDER BY salary DESC
 LIMIT 5;
 
 SELECT emp_no
 FROM salaries
-ORDER BY salary ASC
-LIMIT 5 OFFSET 10;
+ORDER BY salary DESC
+LIMIT 5 OFFSET 45;
